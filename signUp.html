@@ -9,17 +9,30 @@
 </head>
 
 <body>
-  <h1>Create Your Account</h1><br>
+  <h1 style="padding-left:15px">Create Your Account</h1><br>
   <div>
     <form>
       <div class="form-group">
-        <div class="col-xs-3">
-      <label>My First Name Is</label><br>
-      <input type="text" class="form-control input-default" name="firstName" placeholder="First Name"><br>
-      <label>My Last Name Is</label><br>
-      <input type="text" class="form-control input-default" name="lastName" placeholder="Last Name">
-    </div>
-    </div>
+        <div class="col-xs-4">
+          <label>My First Name Is</label>
+          <input type="text" class="form-control input-default" name="firstName" placeholder="First Name">
+          <label style="padding-top:15px">My Last Name Is</label>
+          <input type="text" class="form-control input-default" name="lastName" placeholder="Last Name">
+          <label style="padding-top:15px">My Email Is</label>
+          <input type="email" class="form-control input-default" name="emailAdd" placeholder="myemail@address.com">
+          <label style="padding-top:15px">My Gender Is</label>
+          <div>
+            <select class="form-control">
+              <option>Male</option>
+              <option>Female</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div style="padding-top:40px">
+            <button type="button" class="btn btn-default">Submit</button>
+          </div>
+        </div>
+      </div>
     </form>
   </div>
 </body>
